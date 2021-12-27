@@ -9,7 +9,7 @@ import man from "../images/man.png"
 const mail = `mailto:${contactInfo.email}`;
 const phone = `tel:${contactInfo.phone}`;
 
-const Contact = ({ theme, avatar, name }) => {
+const Contact = ({ theme }) => {
   const newTheme = `${theme} d-flex flex-column justify-content-center`;
 
   return (
@@ -19,10 +19,10 @@ const Contact = ({ theme, avatar, name }) => {
         <hr />
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <img src={man} alt={name} />
+            <img src={man} alt="gopinath" />
           </div>
           <div className="col-lg-6">
-            <h3>{name}</h3>
+            <h3>Gopinath Manohar</h3>
             {contactInfo.email && contactInfo.email !== "" ? (
               <a href={mail}>
                 email: <span>{contactInfo.email}</span>

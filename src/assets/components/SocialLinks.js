@@ -1,7 +1,7 @@
 // https://react-icons.github.io/react-icons/
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
-const SocialLinks = ({  link }) => {
+const SocialLinks = () => {
 
 
   return (

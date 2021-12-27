@@ -11,12 +11,10 @@ import {
 } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 
-// Projects Images (add your images to the /assets/images directory and import below)
-import colors from "./assets/images/colors.svg";
-import react from "./assets/images/logo.svg";
-import notepad from "./assets/images/notepad.svg";
 
-/* START HERE - add your GitHub username below
+
+
+/*  GitHub username below
  ************************************************************** */
 export const githubUsername = "GopinathMano";
 
@@ -71,28 +69,9 @@ export const skillData = [
   },
 ];
 
-/* Projects
- ************************************************************** */
-// List the repo names you want to include (they will be sorted alphabetically), leave the array empty if you want to include everything
-export const filteredProjects = [
-  "React-Shopy-Frontend ",
-  "mern-BikerDiary-frontend",
-  "notepad",
-];
 
-// List the card images you want to include in the same order as the repos above (alphabetically)
-// There MUST be one image per repo above or the defualt image will be applied
-export const projectData = [
-  {
-    image: colors,
-  },
-  {
-    image: react,
-  },
-  {
-    image: notepad,
-  },
-];
+
+
 
 /* Contact Info
  ************************************************************** */

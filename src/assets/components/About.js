@@ -8,20 +8,16 @@ import {  Button } from "react-bootstrap";
 
 // Image
 
-const About = ({ theme, setTheme,  name }) => {
+const About = ({ theme, setTheme }) => {
   const newTheme = `${theme} d-flex flex-column min-vh-100 justify-content-center`;
 
-  // const styles = {
-  //  button :{
-  //    paddi
-  //  }
-  // };
+ 
 
   return (
     <header id="about" className={newTheme}>
       <NavBar theme={theme} setTheme={setTheme} />
       <div className="container text-center">
-        <h1>{name}</h1>
+        <h1>Gopinath M</h1>
         <hr />
         <h3>About</h3>
         <p>
