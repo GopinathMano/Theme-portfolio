@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Theme-portfolio/static/css/main.448676fe.chunk.css",
+    "main.js": "/Theme-portfolio/static/js/main.7d89e4ac.chunk.js",
+    "main.js.map": "/Theme-portfolio/static/js/main.7d89e4ac.chunk.js.map",
+    "runtime-main.js": "/Theme-portfolio/static/js/runtime-main.b041f505.js",
+    "runtime-main.js.map": "/Theme-portfolio/static/js/runtime-main.b041f505.js.map",
+    "static/js/2.a64073c9.chunk.js": "/Theme-portfolio/static/js/2.a64073c9.chunk.js",
+    "static/js/2.a64073c9.chunk.js.map": "/Theme-portfolio/static/js/2.a64073c9.chunk.js.map",
+    "index.html": "/Theme-portfolio/index.html",
+    "static/css/main.448676fe.chunk.css.map": "/Theme-portfolio/static/css/main.448676fe.chunk.css.map",
+    "static/js/2.a64073c9.chunk.js.LICENSE.txt": "/Theme-portfolio/static/js/2.a64073c9.chunk.js.LICENSE.txt",
+    "static/media/My-Recipies.b34ef33f.png": "/Theme-portfolio/static/media/My-Recipies.b34ef33f.png",
+    "static/media/index.scss": "/Theme-portfolio/static/media/PermanentMarker-Regular.109a10dc.ttf",
+    "static/media/man.5b6adb8e.png": "/Theme-portfolio/static/media/man.5b6adb8e.png",
+    "static/media/motorDairies.c84327d5.png": "/Theme-portfolio/static/media/motorDairies.c84327d5.png",
+    "static/media/react-shopy.e6c51fae.png": "/Theme-portfolio/static/media/react-shopy.e6c51fae.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b041f505.js",
+    "static/js/2.a64073c9.chunk.js",
+    "static/css/main.448676fe.chunk.css",
+    "static/js/main.7d89e4ac.chunk.js"
+  ]
+}
