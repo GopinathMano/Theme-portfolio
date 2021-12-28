@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { FiMail } from "react-icons/fi";
 import { FaChevronCircleUp } from "react-icons/fa";
 import { contactInfo } from "../../data";
-import man from "../images/man.png"
+import man from "../images/man.png";
 
 const mail = `mailto:${contactInfo.email}`;
 const phone = `tel:${contactInfo.phone}`;
@@ -25,7 +25,7 @@ const Contact = ({ theme }) => {
             <h3>Gopinath Manohar</h3>
             {contactInfo.email && contactInfo.email !== "" ? (
               <a href={mail}>
-                email: <span>{contactInfo.email}</span>
+                📧E-mail: <span>{contactInfo.email}</span>
               </a>
             ) : (
               ""
@@ -33,7 +33,7 @@ const Contact = ({ theme }) => {
             <br />
             {contactInfo.phone && contactInfo.phone !== "" ? (
               <a href={phone}>
-                phone: <span>{contactInfo.phone}</span>
+                📱Phone: <span>{contactInfo.phone}</span>
               </a>
             ) : (
               ""

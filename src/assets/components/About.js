@@ -29,7 +29,7 @@ const About = ({ theme, setTheme }) => {
           made me do more and more. And I believe, I have did something
           creatively.
         </p>
-        <Button><a href="https://drive.google.com/file/d/19mbRwH9pMhzXaoGNNN0qAGxgTXcHeStR/view"><FaLink/>  Resume</a></Button>
+        <Button><a href="https://drive.google.com/file/d/1sQTaN9_ZMZX7U9JnalVos2GGUqD-lIMq/view?usp=sharing"><FaLink/>  Resume</a></Button>
         <SocialLinks />
         <Link className="scroll" to="skills" smooth={true} duration={750}> 
           <FaChevronCircleDown id="scroll-down" />
