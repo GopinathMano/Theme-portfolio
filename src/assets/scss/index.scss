@@ -79,7 +79,7 @@ hr {
   }
 }
 .card:hover {
-  animation: bounce 0.7s; 
+  animation: bounce 0.7s;
 }
 @keyframes bounce {
   0%,
@@ -150,12 +150,15 @@ hr {
     border: 2px solid $reactBlue;
     background-color: #292b2c;
     img {
-      padding: 1rem;
+      padding: 2 rem;
       max-height: 15rem;
     }
     .card-title {
       text-decoration: underline;
-      text-decoration-color: $reactBlue;  
+      text-decoration-color: $reactBlue;
+    }
+    .card-text {
+      color: aliceblue;
     }
   }
 }
